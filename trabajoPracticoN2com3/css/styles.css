@@ -1,0 +1,63 @@
+body{
+    font-family: Arial;
+    background: #f2f2f2;
+    margin: 0;
+    padding: 20px;
+}
+
+.container{
+    max-width: 700px;
+    margin: auto;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+h1{
+    text-align: center;
+}
+
+.formulario{
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+input{
+    flex: 1;
+    padding: 10px;
+}
+
+button{
+    padding: 10px;
+    cursor: pointer;
+}
+
+.filtros{
+    margin-bottom: 20px;
+}
+
+.filter-btn.active{
+    background: black;
+    color: white;
+}
+
+.task{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #eee;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+
+.completed{
+    text-decoration: line-through;
+    opacity: 0.6;
+}
+
+.acciones{
+    display: flex;
+    gap: 5px;
+}
